@@ -26,7 +26,7 @@ const router = express.Router();
 
 //WORKING PARTIAL
 router.post('/', upload.single('csvFile'), (req, res) => {
-    console.log("uploaded");
+    // console.log("uploaded");
     convertJson();
 });
 
